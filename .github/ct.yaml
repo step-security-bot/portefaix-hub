@@ -28,4 +28,5 @@ helm-extra-args: --timeout 600s
   # If not running on GCE, will error: "Failed to get GCE config"
   # - xxxxxx
 # check-version-increment: false
+release-notes-file: CHANGELOG.md
 debug: true

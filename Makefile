@@ -88,7 +88,7 @@ helm-doc: guard-CHART ## Generate documentation
 
 .PHONY: helm-changelog
 helm-changelog: guard-CHART ## Generate documentation
-	@cd $(CHART) && helm-changelog
+	@./hack/chart-changelog.sh $(CHART)
 
 .PHONY: helm-template
 helm-template: guard-CHART ## Generate manifest
