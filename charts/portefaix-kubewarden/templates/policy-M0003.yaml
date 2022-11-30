@@ -16,7 +16,7 @@
 apiVersion: policies.kubewarden.io/v1alpha2
 kind: ClusterAdmissionPolicy
 metadata:
-  name: portefaix-M0001
+  name: portefaix-M0003
   annotations:
     {{- include "portefaix-kubewarden.annotations" . | nindent 4 }}
   labels:
